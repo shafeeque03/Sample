@@ -24,7 +24,12 @@ function App() {
             }`}
             style={{ animationDelay: `${index * 0.5}s` }}
           >
-            <img src={image} alt="images" />
+            <img
+  src={image}
+  style={{ margin: 10, transform: 'rotate(10deg)', width:300 }}
+  alt="images"
+/>
+
           </div>
         ))}
       </div>

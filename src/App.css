@@ -21,13 +21,13 @@
   height: 100%;
 }
 
-.svg-image {
+/* .svg-image {
   width: 100%;
   height: auto;
   transform-origin: center center;
   transition: transform 0.3s ease;
   transform: scale(1);
-}
+} */
 
 /* .svg-image.even:hover {
   transform: scale(1.8);
@@ -47,7 +47,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(50px);
+    transform: translateY(10px);
   }
 }
 
@@ -56,7 +56,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-50px);
+    transform: translateY(-10px);
   }
 }
 
