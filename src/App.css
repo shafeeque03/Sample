@@ -25,15 +25,14 @@
   width: 100%;
   height: auto;
   transform-origin: center center;
-  transition: transform 0.3s ease; /* Add transition property */
-  transform: scale(1); /* Set initial scale to 1 */
+  transition: transform 0.3s ease;
+  transform: scale(1);
 }
 
-.svg-image.even:hover {
-  transform: scale(1.8); /* Increase scale to 1.1 on hover */
-}
+/* .svg-image.even:hover {
+  transform: scale(1.8);
+} */
 
-/* The rest of your CSS code... */
 
 .svg-image.l2 {
   animation: evenMoveDown 4s infinite alternate;
